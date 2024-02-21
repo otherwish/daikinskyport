@@ -34,7 +34,7 @@ from .const import (
     COORDINATOR,
 )
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=30)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=300)
 UNDO_UPDATE_LISTENER = "undo_update_listener"
 
 NETWORK = None
